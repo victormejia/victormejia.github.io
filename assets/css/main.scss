@@ -8,6 +8,71 @@
 	display:inline;
 }
 
+.contact {
+	overflow: hidden;
+
+	.profile {
+		width: 30%;
+		float: left;
+
+		@media only screen and (max-width: 580px) {
+			width: 100%;
+			text-align: center;
+		}
+
+		img {
+			width: 100%;
+			border-radius: 120px;
+			margin-bottom: 5%;
+
+			@media only screen and (max-width: 580px) {
+				width: 45%;
+			}
+		}
+	}
+
+	.contact-section {
+		width: 55%;
+		float: right;
+		text-align: center;
+
+		@media only screen and (max-width: 850px) {
+			width: 65%;
+		}
+
+		@media only screen and (max-width: 580px) {
+			width: 100%;
+		}
+
+		.contact-header {
+			margin-bottom: 50px;
+		}
+		.subscribe-button {
+			background: #fff;
+			color: rgba(0,0,0,0.4);
+			border-color: rgba(0,0,0,0.3);
+
+			&:hover {
+				background: #2B3E4F;
+				color: #fff;
+			}
+		}
+
+		a {
+		    text-decoration: none;
+		    font-family: 'Open Sans', sans-serif;
+		}
+
+		.contact-links {
+			display: flex;
+			justify-content: space-around;
+			margin: 0 auto;
+		}
+	}
+}
+
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"syntax"

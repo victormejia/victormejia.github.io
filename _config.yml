@@ -1,15 +1,17 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
+name: Victor Mejia
+description: UI Engineer | Speaker | Teacher
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 markdown: redcarpet
 highlighter: pygments
 logo: false
 paginate: 15
+paginate_path: "/blog/page:num/"
+permalink: /:title
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
+domain_name: 'http://victormejia.me'
+google_analytics: 'UA-51873957-1'
 
 # Details for the RSS feed generator
 url:            'blog url'
-author:         'Your Name'
+author:         'Victor Mejia'
